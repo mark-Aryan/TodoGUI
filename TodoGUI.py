@@ -13,7 +13,7 @@ sg.theme("Material1")
 
 clock = sg.Text(key="clock")
 add_input = sg.InputText(tooltip="Enter Todo Here", key="todo")
-add_button = sg.Button("Add", size=10)
+add_button = sg.Button(image_source="add.png", tooltip="Add Todo", key="Add")
 list_box = sg.Listbox(values=functions.get_todos(),
                       key="todos",
                       enable_events=True,
